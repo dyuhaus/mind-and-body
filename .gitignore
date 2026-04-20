@@ -1,0 +1,79 @@
+# --- Credentials — NEVER commit ---
+credentials.env
+*.env
+!credentials.env.example
+!.env.example
+*credentials*
+!credentials.env.example
+*secret*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# --- Obsidian workspace state (user-specific, changes constantly) ---
+AI_Brain/.obsidian/workspace.json
+AI_Brain/.obsidian/workspace-mobile.json
+AI_Brain/.obsidian/plugins/
+AI_Brain/.obsidian/themes/
+
+# --- OS artifacts ---
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# --- Node.js ---
+node_modules/
+package-lock.json
+yarn.lock
+.npm/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.mypy_cache/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Build artifacts & logs ---
+*.log
+*.tmp
+
+# --- Local Claude Code settings ---
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
+
+# --- Large binary/media files ---
+*.mp4
+*.mp3
+*.wav
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar.gz
+*.tar
+*.rar
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.dat
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
