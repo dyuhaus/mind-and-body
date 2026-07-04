@@ -13,7 +13,7 @@ The Body offloads long-term context to the Mind so you don't lose project knowle
 
 - **Persistence across sessions.** Claude Code has no long-term memory by default. The Mind gives it one, in a form you can read, grep, and version-control yourself.
 - **Separation of concerns.** The Body does not hoard state; it asks the Mind. The Mind does not take actions; it only indexes. Each agent is narrow and auditable.
-- **No hidden credentials.** Secrets live in one external file. The vault only stores names (e.g., `OPENAI_API_KEY`), never values.
+- **No hidden credentials.** Secrets live in one external file. The vault only stores names (e.g., `OPENROUTER_API_KEY`), never values.
 - **Obsidian-compatible.** The vault is a plain markdown Obsidian vault. You can browse, search, and edit it with any tool that reads markdown — no proprietary format.
 - **Project-scoped structure.** Every project migrated in gets five standard files (overview, architecture, requirements, decisions, changelog), so context is predictable.
 

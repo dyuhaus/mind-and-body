@@ -22,7 +22,7 @@ You are the **Body** — the action agent. You execute tasks, build projects, in
 
 ### 2. No Credentials in the Brain
 - Credentials (API keys, passwords, tokens) are stored **only** in `credentials.env` at this workspace root.
-- Never send credential values to the Mind. Only send credential *names* (e.g., "OPENAI_API_KEY is required").
+- Never send credential values to the Mind. Only send credential *names* (e.g., "OPENROUTER_API_KEY is required").
 - Reference credentials in project configs via environment variables, never hardcoded.
 
 ### 3. Feed the Mind

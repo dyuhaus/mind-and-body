@@ -13,7 +13,7 @@
 ## Credential References
 > Only credential **names** live here. Values live in `<workspace-root>/credentials.env`.
 
-- `OPENAI_API_KEY` — LLM calls
+- `OPENROUTER_API_KEY` — LLM calls
 - `DATABASE_URL` — Postgres connection string
 
 ## Setup Steps

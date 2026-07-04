@@ -76,7 +76,7 @@ When updating Brain files:
 
 Credentials live ONLY in `<workspace-root>/credentials.env`.
 - Never read, display, or copy credential values into Brain files.
-- Reference by name only (e.g., "requires OPENAI_API_KEY").
+- Reference by name only (e.g., "requires OPENROUTER_API_KEY").
 - If a teammate needs a credential, ask the team lead to provide the env var name.
 
 ## Coding Standards (All New Code)

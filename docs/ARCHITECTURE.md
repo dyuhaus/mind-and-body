@@ -78,7 +78,7 @@ The only file that ever touches real secrets is `credentials.env` at the workspa
 
 - `.gitignore`d.
 - Outside the vault.
-- Referenced inside the vault by **name only** (e.g., `OPENAI_API_KEY`).
+- Referenced inside the vault by **name only** (e.g., `OPENROUTER_API_KEY`).
 
 The Mind's rules explicitly forbid storing credential values. If the Body attempts to send one, the Mind must refuse.
 

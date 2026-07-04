@@ -17,7 +17,7 @@ Definitions of terms used within the AI_Brain system.
 | **Mind** | The agent that operates inside the vault. Stores, retrieves, and connects information. |
 | **Body** | The agent that operates outside the vault. Executes tasks and interacts with the user. |
 | **Migration** | The process of importing an existing project into the workspace and indexing its context in the Brain. |
-| **Credential Reference** | A credential name (e.g., `OPENAI_API_KEY`) stored in the Brain. The actual value lives only in `credentials.env`. |
+| **Credential Reference** | A credential name (e.g., `OPENROUTER_API_KEY`) stored in the Brain. The actual value lives only in `credentials.env`. |
 
 ## Related
 - [[Agents/Mind]] — The Mind agent defined above

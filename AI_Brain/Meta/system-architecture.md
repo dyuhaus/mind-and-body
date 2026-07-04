@@ -99,7 +99,7 @@ The Mind must never create information that wasn't explicitly provided by the Bo
 
 - Master credentials file: `<workspace-root>/credentials.env` (outside vault).
 - Projects reference credentials by environment variable name, never by value.
-- The Mind stores only credential *names* in `requirements.md` files (e.g., "Requires: OPENAI_API_KEY").
+- The Mind stores only credential *names* in `requirements.md` files (e.g., "Requires: OPENROUTER_API_KEY").
 - If the Body attempts to send a credential value to the Mind, the Mind must refuse and redirect.
 
 ---
